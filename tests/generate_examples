@@ -3,4 +3,4 @@
 export DISABLE_BUILD=1
 
 DIR=$(cd "$(dirname "$0")/"; pwd)
-$DIR/build
+"$DIR"/build
